@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(images/moon.jpg);
+    background-repeat: repeat; 
+    background-size: cover; 
+    background-attachment: fixed;
+  }
+  
+
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: yellow;
+    }
+   
+  
+  .highlight{
+    background-color: palevioletred;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .underline{
+    text-decoration: underline;
+  }
+  
+  .bold{
+    font-weight: bold;
+  }
+  .paragraph-container {
+    margin-top: 20px;
+    color: aqua;
+  }
+  
+  .paragraph {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: black;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  .visible {
+    display: block; 
+  }
+  .container_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
